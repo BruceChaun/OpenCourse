@@ -1,0 +1,3 @@
+Part II
+
+Get the front by front(), point it to other object, and pass as parameter to the public method.
