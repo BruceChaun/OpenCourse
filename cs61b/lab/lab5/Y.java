@@ -4,5 +4,9 @@
  */
 
 public class Y extends X {
-	public int b;
+	protected int b;
+
+	public void test() {
+		System.out.println("test");
+	}
 }

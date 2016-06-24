@@ -3,7 +3,7 @@
  */
 
 public class X {
-	public int a;
+	protected int a;
 
 	public static final int c = 100;
 

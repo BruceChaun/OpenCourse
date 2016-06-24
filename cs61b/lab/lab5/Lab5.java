@@ -159,5 +159,9 @@ public class Lab5 {
 		 */
 		Y2 y2 = new Y2();
 		((X) y2).print("1");
+
+		X x = new Y();
+		x.a = 1;
+		((Y) x).test();
 	}
 }
