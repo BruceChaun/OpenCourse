@@ -1,0 +1,9 @@
+part I
+
+Error "deposit less than 0" if deposit a negative amount of money.
+Error "Couldn't find account number" if deposit to or withdraw from a 
+nonexistent account.
+Report twice if deposit to or withdraw from a nonexistent account 
+because in doDeposit() and doWIthdraw() operation, if account is non-
+existent, two places print the error message -- ATM.deposit() or 
+ATM.withdraw() and ATM.balanceInquiry().
