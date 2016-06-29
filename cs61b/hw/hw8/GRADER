@@ -1,0 +1,21 @@
+GRADER file for Homework 8
+
+ Your Name:  
+Your Login:  
+
+Part III.  Running time comparisons
+
+  List size         mergesort             quicksort
+      100               1                     0
+    1,000               7                     8
+   10,000              62                    31
+  100,000              121                   115
+1,000,000              2382                  819
+
+Part IV.
+
+  Is mergesort stable?  Yes.
+  Why or why not?  Queue ensures "first in, first out". In the mergeSortedQueues(), we know that all the items in q1 is in front of those in q2, and if their front items are the same, enqueue item in q1 first and then the one in q2, which makes sure the correct order.
+
+  Is quicksort stable?  Yes.
+  Why or why not?  Again, queue ensures "first in, first out". in the partition(), three queues (qSmall, qEquals, qLarge) enqueue the items one by one, according to the comparison result to pivot. When writing back to the original queue q, we append three queues by the order as before, which does not reorder the sequence.
