@@ -1,0 +1,8 @@
+(a) Using DFS algorithm, we remark each node whether it is visited, so 
+	if we encounter some node is visited, we know if the current node
+	is connected with that node, loop occurs. So in that case, we just 
+	remove the edge connecting them.
+
+(b) Choose arbitrary node as root. If there are multiple edges connecting 
+	current node, randomly select one and continue to use DFS algorithm,
+	until all the nodes are visited.
