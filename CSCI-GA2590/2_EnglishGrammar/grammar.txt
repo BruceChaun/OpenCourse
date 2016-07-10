@@ -1,0 +1,10 @@
+sentence    :=  np-nom-s vp-s | np-nom-p vp-p | vp | aux-s np-nom-s vp | aux-p np-nom-p vp;
+np-nom-s	    :=  pronoun-nom-s | proper-noun | det nominal | nominal;
+np-nom-p	    :=  pronoun-nom-p | proper-noun | det nominal | nominal;
+nominal     :=  noun | nominal noun | nominal pp | nominal pp pp | nominal rel-clause;
+vp-p          :=  verb-p | verb-p np-acc | verb-p np-acc pp | verb-p pp | verb-p inf-marker vp;
+vp-s          :=  verb-s | verb-s np-acc | verb-s np-acc pp | verb-s pp | verb-s inf-marker vp;
+vp          :=  vp-s | vp-p;
+rel-clause  :=  rel-pro vp;
+pp          :=  prep np-acc;
+np-acc		:=  pronoun-acc | proper-noun | det nominal | nominal;

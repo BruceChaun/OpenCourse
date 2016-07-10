@@ -1,0 +1,6 @@
+sentence    :=  np vp | vp | aux np vp;
+np	    :=  pronoun | proper-noun | det nominal | nominal;
+nominal     :=  noun | nominal noun | nominal pp | nominal pp pp | nominal rel-clause;
+vp          :=  verb | verb np | verb np pp | verb pp | verb inf-marker vp;
+rel-clause  :=  rel-pro vp;
+pp          :=  prep np;
