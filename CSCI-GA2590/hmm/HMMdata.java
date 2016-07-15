@@ -31,9 +31,16 @@ class HMMdata {
 		}
 	}
 	
-	void initSymbol(String[] symbols) {
-		for (int i = 0; i < symbols.length; i++) {
-			symbolMap.put(symbols[i], i);
+	void initSymbol(String[] seq) {
+		int seqLen = seq.length;
+		for (int i = 0; i < seqLen; i++) {
+			String[] s = seq[i].split(" ");
+			int nWord = s.length;
+			for (int j = 0; j < nWord; j++) {
+				if (!symbolMap.containsKey(s[i])) {
+					symbolMap.put(s[i], i);
+				}
+			}
 		}
 	}
 	
