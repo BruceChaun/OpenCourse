@@ -48,7 +48,7 @@ public class MyMath {
 		for (int i = 0; i < a.length; i++) {
 			sum += a[i];
 		}
-		if (sum > 0 || sum < HMM.NINF)
+		if (sum > 0 || sum <= HMM.NINF)
 			return HMM.NINF;
 		return sum;
 	}
@@ -67,8 +67,8 @@ public class MyMath {
 		}
 		
 		for (int i = 0; i < len; i++) {
-			double logprob = a[i] / sum;
-			a[i] = logprob(logprob);
+			double p = a[i] / sum;
+			a[i] = p == 0 ? HMM.NINF : logprob(p);
 		}
 	}
 
