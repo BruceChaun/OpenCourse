@@ -1,0 +1,20 @@
+The	DT	B
+morning	NN	I
+flight	NN	I
+from	IN	O
+Denver	NNP	B
+has	VBZ	O
+arrived	VBN	O
+
+TSA	NNP	B
+spokeswoman	NN	B
+Lisa	NNP	B
+Farbstein	NNP	I
+said	VBD	O
+the	DT	B
+dogs	NNS	I
+undergo	VBP	O	
+12	CD	B
+weeks	NNS	I	
+of	IN	I
+training	NN	I

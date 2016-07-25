@@ -1,0 +1,20 @@
+The	pos0=DT	capitalized=1	pos+1=NN	bio+1=I	B
+morning	pos-1=DT	bio-1=B	pos0=NN	pos+1=NN	bio+1=I	I
+flight	pos-1=NN	bio-1=I	pos0=NN	pos+1=IN	bio+1=O	I
+from	pos-1=NN	bio-1=I	pos0=IN	pos+1=NNP	bio+1=B	O
+Denver	pos-1=IN	bio-1=O	pos0=NNP	capitalized=1	pos+1=VBZ	bio+1=O	B
+has	pos-1=NNP	bio-1=B	pos0=VBZ	pos+1=VBN	bio+1=O	O
+arrived	pos-1=VBZ	bio-1=O	pos0=VBN	O
+
+TSA	pos0=NNP	capitalized=1	pos+1=NN	bio+1=B	B
+spokeswoman	pos-1=NNP	bio-1=B	pos0=NN	pos+1=NNP	bio+1=B	B
+Lisa	pos-1=NN	bio-1=B	pos0=NNP	capitalized=1	pos+1=NNP	bio+1=I	B
+Farbstein	pos-1=NNP	bio-1=B	pos0=NNP	capitalized=1	pos+1=VBD	bio+1=O	I
+said	pos-1=NNP	bio-1=I	pos0=VBD	pos+1=DT	bio+1=B	O
+the	pos-1=VBD	bio-1=O	pos0=DT	pos+1=NNS	bio+1=I	B
+dogs	pos-1=DT	bio-1=B	pos0=NNS	pos+1=VBP	bio+1=O	I
+undergo	pos-1=NNS	bio-1=I	pos0=VBP	pos+1=CD	bio+1=B	O
+12	pos-1=VBP	bio-1=O	pos0=CD	pos+1=NNS	bio+1=I	B
+weeks	pos-1=CD	bio-1=B	pos0=NNS	pos+1=IN	bio+1=I	I
+of	pos-1=NNS	bio-1=I	pos0=IN	pos+1=NN	bio+1=I	I
+training	pos-1=IN	bio-1=I	pos0=NN	I
