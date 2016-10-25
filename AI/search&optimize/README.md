@@ -1,5 +1,7 @@
 # Search and Optimization Algorithms in Artificial Intelligence
 
+## Use PacMan game as medium of algorithm implementation. See [here](pacmanvghosts.co.uk).
+
 Search algorithms include:
 
 * Breadth-first search
